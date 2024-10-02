@@ -4,3 +4,8 @@ export interface MockDataType {
   price: number;
   boughtDate: string;
 }
+
+export interface MockDataResult {
+  datas: MockDataType[];
+  isEnd: boolean;
+}
